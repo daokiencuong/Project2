@@ -19,8 +19,8 @@ html, body{
 }
 
 .content{
-    /* width: 1170px; */
-    max-width: calc(100vw - 270px);
+    width: 1170px;
+    max-width: calc(100vw - 100px);
     margin-left: auto;
     margin-right: auto;
 }
@@ -126,7 +126,7 @@ html, body{
 
 /* Hero */
 .hero{
-    padding: 66px;
+    padding: 66px 0px ;
     background-color: #FFFCF4;
 }
 
@@ -206,7 +206,7 @@ html, body{
 /* hero text */
 .hero .hero_text{
     padding-top: 64px;
-    padding-left: 230px;
+    padding-left: 150px;
 
 }
 
