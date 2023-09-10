@@ -132,6 +132,7 @@ html, body{
 
 .hero1{
     display: flex;
+    justify-content: space-between;
 }
 
 .hero .hero_img{
@@ -206,7 +207,7 @@ html, body{
 /* hero text */
 .hero .hero_text{
     padding-top: 64px;
-    padding-left: 150px;
+    /* padding-left: 150px; */
 
 }
 
