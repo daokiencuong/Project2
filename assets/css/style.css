@@ -305,3 +305,223 @@ html, body{
     line-height: 30px;
 }
 
+/* course */
+.course{
+    margin-top: 200px;
+}
+
+.course .course_intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+.course .course_intro .title{
+    color: #171100;
+    font-family: Sen;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 126.316% */
+    letter-spacing: -0.76px;
+    margin-bottom: 16px;
+}
+
+.course .course_intro .desc{
+    color: #5F5B53;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 458px; 
+}
+
+.course .course_intro .course_intro_btn{
+    display: flex;
+}
+
+.course .course_intro .course_intro_btn .btn{
+    height: 40px;
+    width: 40px;
+    margin: 0px 10px;
+    border: 1px solid #FFB900;
+    border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course .course_intro .course_intro_btn .btn i{
+    color: #FFB900;
+    padding: 15px;
+    border-radius: 50%;
+}
+.course .course_intro .course_intro_btn .btn:hover{
+    background-color: #FFB900;
+}
+
+.course .course_intro .course_intro_btn .btn i:hover{
+    color: white;
+}
+
+/* course_list */
+
+.course .course_list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.course .course_list .box{
+    height: 466px;
+    width: 370px;
+    border-radius: 12px;
+    border: 1px solid #E2DFDA;
+    box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+
+}
+
+.course .course_list .box .img{
+    border-radius: 12px 12px 0px 0px;
+}
+
+.course .course_list .box .column{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    margin-left: 22px;
+    margin-right: 22px;
+}
+
+.course .course_list .box .column .title{
+    color: #171100;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 166.667% */
+}
+
+.course .course_list .box .column .eva{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.course .course_list .box .column .eva div{
+    color: #FEA31B;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+
+.course .course_list .box .desc{
+    margin-top: 6px;
+    margin-left: 22px;
+    margin-right: 22px;
+    color: #5F5B53;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 185.714% */
+    width: 326px;
+}
+
+.course .course_list .box .column1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+    margin-left: 22px;
+    margin-right: 22px;
+}
+
+.course .course_list .box .column1 .cost{
+    color: #171100;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 166.667% */
+}
+
+.course .course_list .box .column1 .btn{
+    color: #ffffff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 185.714% */
+    padding: 12px 24px;
+    background-color: #000000;
+    border-radius: 25px;
+}
+
+.course .course_list .box .column1 .btn:hover{
+    background: #FFB900;
+}
+
+/* .client */
+
+.client{
+    margin-top: 200px;
+    background-color: #2E2100;
+}
+
+.client .table{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    align-items: center;
+}
+
+.client .row1 .avatar{
+    height: 72px;
+    width: 72px;
+    border-radius: 72px;
+    object-fit: cover;
+    object-position: 50% 20%;
+}
+
+.client .row1 .name{
+    margin-top: 18px;
+    color: #F7F7F7;
+    font-family: Sen;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px; /* 141.667% */
+}
+
+.client .row1 .positon{
+    color: #BFBCB2;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 185.714% */
+    margin-top: 4px;
+    margin-bottom: 28px;
+}
+
+.client .row2{
+    width: 770px;
+}
+
+.client .row2 .quote{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 40px; /* 153.846% */
+    margin-left: 30px;
+}
